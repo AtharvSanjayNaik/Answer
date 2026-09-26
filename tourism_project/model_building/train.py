@@ -22,7 +22,7 @@ mlflow.set_experiment("tourism-wellness-package-experiment")
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
 
-dataset_repo = "<-------Hugging Face Username------->/tourism-wellness-package"
+dataset_repo = "ASNaik/tourism-wellness-package"
 
 Xtrain_path = f"hf://datasets/{dataset_repo}/Xtrain.csv"
 Xtest_path = f"hf://datasets/{dataset_repo}/Xtest.csv"
