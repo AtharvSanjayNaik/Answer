@@ -116,7 +116,7 @@ with mlflow.start_run():
     print(f"Model saved as artifact at: {model_path}")
 
     # Upload the model to the Hugging Face Hub
-    model_repo_id = "<-------Hugging Face Username------->/tourism-wellness-model"
+    model_repo_id = "ASNaik/tourism-wellness-model"
     try:
         api.repo_info(repo_id=model_repo_id, repo_type="model")
         print(f"Model repo '{model_repo_id}' already exists. Using it.")
