@@ -42,7 +42,7 @@ for file_path in files:
     api.upload_file(
         path_or_fileobj=file_path,
         path_in_repo=file_path.split("/")[-1],
-        repo_id="<-------Hugging Face Username------->/tourism-wellness-package",
+        repo_id="ASNaik/tourism-wellness-package",
         repo_type="dataset",
     )
 print("Train/test splits uploaded to Hugging Face Hub.")
